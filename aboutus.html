@@ -1,128 +1,189 @@
-<!doctype html>
-<html>
-<head><meta charset="utf-8">
-<link rel="stylesheet" href="assets/css/main.css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maa Santoshi Traders</title>
 
-		.inner1{
-			width:100%;
-			height:20%;
-			background-color:;
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-			}
-		#container ul{
-				list-style:none;
-				padding-left:120px;
-				padding-right:120px;
-			     }
-		#container ul li{
-				background-color:grey;
-				width:180px;
-				border:1px solid white;
-				height:50px;
-				line-height:50px;
-				text-align:center;
-				float:left;
-				color:white;
-				font-size:18px;
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
 
-			     }
-		#container ul li:hover
-				{
-				background-color:#388222;
-}
-		.inner3{
-			width:100%;
-			height:540px;
-			background-color:lightgrey;
-            display: grid;
-            padding-top: 20px;
-			}
-		.inner{
-			width:100%;
-			height:100;
-			color:black;
-			padding-left:30px;
-            padding-right: 30px;
-            padding-bottom: 20px;
-			}
-		
+      #container ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #343a40;
+      }
 
-</style>
-</head>
-<body>
-	<div class="main-div">
-		<div class="inner1"><br>
-			<center><img src="MST.jpg" width="100px" height="50px"></center></a>
-			<h1 align="center">MAA &nbsp;SANTOSHI &nbsp;TRADERS</h1>
-		</div>
-		<body class="is-preload">
+      #container ul li {
+        margin: 5px;
+        padding: 10px 20px;
+        background-color: #6c757d;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        transition: 0.3s;
+      }
 
-				<nav id="menu">
-					<ul class="links">
-						
-						<li><a href="img2.html">Double Die Dona Machine</a></li>
-						<li><a href="img3.html">Water Purification Machine</a></li>
-						<li><a href="img4.html">Hand Press Dona Machine</a></li>
-						<li><a href="img5.html">Paper Cup Making Machine</a></li>
-						<li><a href="img6.html"> Pet blow Moulding Machine</a></li>
-						<li><a href="img7.html">Automated Paper Cup Machine</li>
-						<li><a href="img8.html">Agarbatti Making Machine</a></li>
-						<li><a href="img9.html">Kapoor Making Machine</a></li>
-						<li><a href="img11.html"> Leg Press Dona Machine</a></li>
-					 	<li><a href="img12.html"> Paper Lamination Machine</a></li>
-						<li><a href="img13.html"> Single Die Dona Machine</a></li>
-						<li><a href="img14.html"> Automatic Dona Machine</a></li>
-						<li><a href="img16.html">Spring</a></li>
-						<li><a href="img17.html">Stone Heater</a></li>
-						<li><a href="img18.html">Small Parts</a></li>
-						<li><a href="img19.html">Dona Die</a></li>
-						<li><a href="img20.html">Nasta Plate Die</li>
-						<li><a href="img21.html">Roller</a></li>
-						<li><a href="img22.html">Thali Die</a></li>
-						<li><a href="img23.html">Heater</a></li>
-					 	<li><a href="img27.html">Silver Paper Dona</a></li>
-						<li><a href="img28.html">Multi Paper Dona</a></li>
-						<li><a href="img29.html">Silver Paper Roll</a></li>
-						<li><a href="img30.html">Multi Paper Roll</a></li>
-						<li><a href="img31.html">Silver Paper Plate</a></li>
-						<li><a href="img32.html">Multi Paper Plate</a></li>
-						<li><a href="img33.html">Multi Panni Roll</a></li>
-						<li><a href="img34.html">Silver Panni Roll</a></li>
+      #container ul li:hover {
+        background-color: #28a745;
+      }
 
+      #container ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+      }
 
+      .inner1 {
+        width: 100%;
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        text-align: center;
+      }
 
+      .inner1 img {
+        max-width: 100px;
+        height: auto;
+      }
 
-					</ul>
-				</nav>
-			</body>
+      .inner1 h1 {
+        margin-top: 10px;
+        font-size: 24px;
+      }
 
-				<script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/browser.min.js"></script>
-				<script src="assets/js/breakpoints.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<script src="assets/js/main.js"></script>
+      .inner4 {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        line-height: 100px;
+      }
 
-		<div id="container">
-				 	<ul>
+      @media (max-width: 768px) {
+        #container ul {
+          flex-direction: column;
+        }
+        #container ul li {
+          width: 80%;
+          margin: 5px auto;
+        }
+        div.content {
+          width: 90%;
+          margin: 10px auto;
+          float: none;
+        }
+      }
 
-						<a href="#menu"><li>List</li></a>
-						<a href="home.html"><li>HOME</li></a>
-						<a href="Machines.html"><li>Machines</li></a>
-						<a href="machinesparts.html"><li>Machine Parts</li></a>
-						<a href="readymadeproducts.html"><li>Readymade Product</li></a>
-						<a href="placeorder.html"><li>Place order</li>
-						<a href="aboutus.html"><li>About Us</li></a>
-					</ul>
-		</div><br><br><br><br>
-		<div class="inner3"><center><img src="d1.jpg" width="95%" height="500px"></center>
-		</div><br>
-            <div class="inner">
-							The owner of the shop "RAVI CHAURASIA" Welcomes you in his website.Our shop is the best shop for buying or salling these types of the machines.Our shop is in maharana pratap nagar, sector no. 1, gali no. 3 ,AJAY NIWAS, SATNA (M.P).In our shop many machines like(Double die dona machine, Water purification machine, Hand press dona machine,paper cup making machine, pet blow moduling machine, Agarbatti making machine, Kapoor making mschine, Leg press dona machine, Paper Lamination machine, single die dona machine, Automatic dona machine e.t.c.) machines parts like (Spring, Stone heater, Small parts, Dona die, Nasta plate die, Roller, Thali die, Heater e.t.c.) and some readymade products are also be sold like (Silver paper dona, MUlti paper dona, Silver paper roll, Multi paper roll, Silver paper plate, Multi paper plate, Multi panni roll, Silver panni roll e.t.c.).Their are extra charges on product delivary. 
-					</div>
-		
-</body>
+      .inner3 {
+        width: 100%;
+        height: 100%;
+        background-color: lightgrey;
+        display: grid;
+      }
+    </style>
+  </head>
 
+  <body>
+    <!-- Header -->
+    <div class="inner1">
+      <img src="MST.jpg" alt="Logo" />
+      <h1>MAA SANTOSHI TRADERS</h1>
+    </div>
 
+    <!-- Navigation -->
+    <div id="container">
+      <ul>
+        <li><a href="#menu">List</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Machines.html">Machines</a></li>
+        <li><a href="machinesparts.html">Machine Parts</a></li>
+        <li><a href="readymadeproducts.html">Readymade Product</a></li>
+        <li><a href="placeorder.html">Place Order</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="img2.html">Double Die Dona Machine</a></li>
+        <li><a href="img3.html">Water Purification Machine</a></li>
+        <li><a href="img4.html">Hand Press Dona Machine</a></li>
+        <li><a href="img5.html">Paper Cup Making Machine</a></li>
+        <li><a href="img6.html">Pet blow Moulding Machine</a></li>
+        <li><a href="img7.html">Automated Paper Cup Machine</a></li>
+        <li><a href="img8.html">Agarbatti Making Machine</a></li>
+        <li><a href="img9.html">Kapoor Making Machine</a></li>
+        <li><a href="img11.html">Leg Press Dona Machine</a></li>
+        <li><a href="img12.html">Paper Lamination Machine</a></li>
+        <li><a href="img13.html">Single Die Dona Machine</a></li>
+        <li><a href="img14.html">Automatic Dona Machine</a></li>
+        <li><a href="img16.html">Spring</a></li>
+        <li><a href="img17.html">Stone Heater</a></li>
+        <li><a href="img18.html">Small Parts</a></li>
+        <li><a href="img19.html">Dona Die</a></li>
+        <li><a href="img20.html">Nasta Plate Die</a></li>
+        <li><a href="img21.html">Roller</a></li>
+        <li><a href="img22.html">Thali Die</a></li>
+        <li><a href="img23.html">Heater</a></li>
+        <li><a href="img27.html">Silver Paper Dona</a></li>
+        <li><a href="img28.html">Multi Paper Dona</a></li>
+        <li><a href="img29.html">Silver Paper Roll</a></li>
+        <li><a href="img30.html">Multi Paper Roll</a></li>
+        <li><a href="img31.html">Silver Paper Plate</a></li>
+        <li><a href="img32.html">Multi Paper Plate</a></li>
+        <li><a href="img33.html">Multi Panni Roll</a></li>
+        <li><a href="img34.html">Silver Panni Roll</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="inner3">
+      <center><img src="d1.jpg" width="95%" height="500px" /></center>
+    </div>
+    <br />
+    <div class="inner">
+      The owner of the shop "RAVI CHAURASIA" Welcomes you in his website.Our
+      shop is the best shop for buying or salling these types of the
+      machines.Our shop is in maharana pratap nagar, sector no. 1, gali no. 3
+      ,AJAY NIWAS, SATNA (M.P).In our shop many machines like(Double die dona
+      machine, Water purification machine, Hand press dona machine,paper cup
+      making machine, pet blow moduling machine, Agarbatti making machine,
+      Kapoor making mschine, Leg press dona machine, Paper Lamination machine,
+      single die dona machine, Automatic dona machine e.t.c.) machines parts
+      like (Spring, Stone heater, Small parts, Dona die, Nasta plate die,
+      Roller, Thali die, Heater e.t.c.) and some readymade products are also be
+      sold like (Silver paper dona, MUlti paper dona, Silver paper roll, Multi
+      paper roll, Silver paper plate, Multi paper plate, Multi panni roll,
+      Silver panni roll e.t.c.).Their are extra charges on product delivary.
+    </div>
+    <!-- Clear floats before footer -->
+    <div style="clear: both"></div>
+
+    <!-- JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
